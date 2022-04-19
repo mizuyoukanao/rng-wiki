@@ -9,7 +9,7 @@ const config = {
   title: 'ポケモン乱数調整Wiki',
   tagline: 'ポケモンの乱数調整コミュニティによるWiki',
   url: 'https://mizuyoukanao.github.io',
-  baseUrl: '/',
+  baseUrl: '/rng-wiki/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/RNGicon.ico',

@@ -64,7 +64,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Wikiトップ',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -81,7 +81,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Wikiトップ',
                 to: '/docs/intro',
               },
             ],
@@ -109,7 +109,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Pokemon RNG Discord JP. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Pokémon RNG Japan Discord. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

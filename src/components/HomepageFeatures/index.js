@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
@@ -9,7 +10,7 @@ const FeatureList = [
     description: (
       <>
         ポケモンの乱数調整に関する知識を集約する目的で作られた、
-        ポケモン乱数調整DiscordJPメンバーが運営するWikiです。
+        Pokémon RNG Japan Discordメンバーが運営するWikiです。
       </>
     ),
   },
@@ -18,7 +19,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        <code>docs</code>に世代別のページがあります。
+        <Link to="/docs/intro">Wikiトップ</Link>から世代別のページにアクセスできます。
       </>
     ),
   },
@@ -27,7 +28,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        ポケモン乱数調整DiscordJPにて、査読や提案を随時受け付けています。
+        <Link to="https://discord.com/invite/TwjZmRg">Pokémon RNG Japan Discord</Link>にて、査読や提案を随時受け付けています。
       </>
     ),
   },
